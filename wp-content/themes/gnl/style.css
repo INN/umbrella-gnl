@@ -1,0 +1,68 @@
+/*
+Theme Name:     Georgia News Lab
+Theme URI:      http://largoproject.org
+Description:    Child theme for Georgia News Lab built with Project Largo from INN.
+Author:         The INN Nerds
+Author URI:     http://nerds.inn.org
+Template:       largo-dev
+Version:        0.2
+*/
+
+.navbar li>a {
+  color: #000;
+  padding: 0 10px;
+}
+.navbar li>a:hover,
+.navbar li.active>a:hover {
+  color: #1e90ff;
+  background-color: #fff;
+  text-decoration: underline;
+}
+.navbar li.active>a {
+  background-color: #fff;
+  color: #000;
+}
+#homepage-featured h2 a,
+#homepage-featured h3 a,
+#menu-footer-navigation a,
+#site-footer .post-lead h5 a,
+.widget .post-lead h5 a,
+h5.top-tag a,
+.widget li a {
+  color: #000;
+}
+.widget a:hover {
+  color: #1e90ff;
+}
+#homepage-featured h2 a:hover,
+#homepage-featured h3 a:hover,
+#menu-footer-navigation a:hover,
+#site-footer .post-lead h5 a:hover,
+#main-nav ul li a:hover,
+.widget .post-lead h5 a:hover,
+h5.top-tag a:hover,
+.widget li a:hover {
+  color: #000 !important;
+}
+#homepage-featured .top-story p,
+.navbar ul,
+#homepage-featured .sub-stories h3 {
+  font-size: 18px !important;
+}
+#homepage-featured .sub-stories p,
+.widget p,
+.widget ul {
+  font-size: 15px !important;
+}
+#homepage-featured .sub-stories p a {
+  display: inline;
+}
+.subscribe:hover {
+  text-decoration: underline;
+}
+#site-footer a:hover {
+  color: #1e90ff;
+}
+footer #boilerplate a {
+  color: #333;
+}
