@@ -1,6 +1,6 @@
 <?php
 /**
- * Some simple definitions for GNL
+ * Constants
  */
 // This site is an INN Member
 if ( !defined( 'INN_MEMBER' ) ) {
